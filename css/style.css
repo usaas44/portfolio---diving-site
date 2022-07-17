@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #262C27;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.header::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/header-decor.svg);
+    bottom: o;
+    left: 0;
+    right: 0;
+    height: 456px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    padding: 57px 0;
+    gap: 100px;
+    justify-content: flex-end;
+}
+
+
+.logo path {
+    transition: 0.6s linear;
+}
+
+.logo:hover path {
+    fill: #0093A1;
+
+}
+
+.logo:active {
+    position: relative;
+    top: 2px;
+}
+
+.header__btn {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 12px 71px;
+    background-color: #262C27;
+    border: none;
+    cursor: pointer;
+
+}
+
+.header__btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.header__phone {
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header__phone:active {
+    position: relative;
+    top: 2px;
+}
+
+.header__content {
+    color: white;
+    min-height: calc(100vh - 161px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.header__content-box {
+    max-width: 550px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.header__decor-text {
+    position: absolute;
+    top: 0;
+}
+
+.header__title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Comfortaa;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0em;
+
+
+
+}
+
+.header__text {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+
+}
