@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(65%);
+    transform: translateY(50%);
     z-index: 3;
 
 }
@@ -75,7 +75,7 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(115%) rotate(180deg);
+    transform: translateY(100%) rotate(180deg);
     z-index: 2;
 
 }
@@ -193,7 +193,7 @@ p {
     bottom: 10px;
     color: #0093A1;
     z-index: 4;
-   
+
 
 
 }
@@ -203,14 +203,16 @@ p {
     right: 115px;
     z-index: 1;
     opacity: 0.3;
-    bottom: 0;
+    bottom: 33px;
 }
+
 .header__decor-text--two {
     left: 180px;
     z-index: 4;
     opacity: 0.3;
-    bottom: -200px;
+    bottom: -114px;
 }
+
 .header__decor-text--three {
     max-width: 360px;
     font-family: Inter;
@@ -222,6 +224,6 @@ p {
     text-align: center;
     bottom: 10px;
     right: 145px;
-    bottom: -170px;
+    bottom: -80px;
 
 }
