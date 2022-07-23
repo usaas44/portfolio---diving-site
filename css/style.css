@@ -346,6 +346,7 @@ p {
     display: flex;
     align-items: center;
     gap: 130px;
+    padding-bottom: 50px;
 
 
 }
@@ -415,4 +416,10 @@ p {
 
 .down__text {
     margin-bottom: -5px;
+}
+
+/*Buy section*/
+
+.buy > .container {
+    display: flex;
 }
