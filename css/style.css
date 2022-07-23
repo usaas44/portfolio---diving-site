@@ -346,6 +346,8 @@ p {
     display: flex;
     align-items: center;
     gap: 130px;
+
+
 }
 
 .info__specs--item {
@@ -368,9 +370,11 @@ p {
 .info__specs--list {
     padding: 30px 0;
     width: 580px;
+    border-top: #FFFFFF solid;
+    border-bottom: #FFFFFF solid;
 }
 
-.info__specs--list::before {
+/*.info__specs--list::before {
     content: "";
     position: absolute;
     width: 657px;
@@ -390,7 +394,7 @@ p {
     color: white;
     bottom: 20px;
     right: 808px;
-}
+}*/
 
 .info__specs--item {
     font-family: Inter;
@@ -407,4 +411,8 @@ p {
 
 .info__specs--caption {
     width: 195px;
+}
+
+.down__text {
+    margin-bottom: -5px;
 }
