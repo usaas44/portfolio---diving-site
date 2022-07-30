@@ -420,6 +420,103 @@ p {
 
 /*Buy section*/
 
-.buy > .container {
+.buy>.container {
     display: flex;
+    padding: 150px 0;
+}
+
+.buy__content {
+    
+    display: block;
+}
+
+.buy__content--text {
+    margin-bottom: 25px;
+    max-width: 292px;
+}
+
+.buy__title {
+    width: 502px;
+    font-family: Comfortaa;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0093A1;
+    padding-bottom: 50px;
+
+}
+
+.buy__btn {
+    margin-top: 25px;
+}
+
+.content__btn {
+    transition: 0.4s linear;
+}
+
+.content__btn:hover {
+    color: #0093A1;
+}
+
+.content__btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.buy__content--title {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.text___btn {
+    text-transform: uppercase;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0093A1;
+
+}
+
+.buy__btn {
+    position: absolute;
+    width: 484px;
+    height: 80px;
+    cursor: pointer;
+    background-color: #fff;
+    border-color: #0093A1;
+    transition: 0.9s linear;
+}
+
+.buy__btn:hover {
+    background-color: #B9C400;
+    border: #B9C400
+}
+
+
+.text___btn:hover {
+    color: black;
+}
+
+.buy__price {
+    width: 330px;
+    height: 330px;
+    margin-top: 470px;
+    margin-right: 35px;
+    margin-left: -135px;
+    cursor: pointer;
+}
+
+.star:active {
+    width: 225px;
+    height: 215px;
+}
+
+.buy-img {
+    width: 600px;
+    height: 720px;
 }
