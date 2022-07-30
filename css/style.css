@@ -528,6 +528,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
     height: 1570px;
 }
 
@@ -562,6 +563,8 @@ p {
     padding-left: 24px;
 }
 
-.techno__btn {
-    
+.info--btn2 {
+    position: absolute;
+    top: 20px;
+    left: 1450px;
 }
