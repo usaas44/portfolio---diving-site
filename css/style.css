@@ -426,7 +426,7 @@ p {
 }
 
 .buy__content {
-    
+
     display: block;
 }
 
@@ -519,4 +519,49 @@ p {
 .buy-img {
     width: 600px;
     height: 720px;
+}
+
+/* Technology setcion*/
+
+.technology {
+    background-image: url(/images/technology-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1570px;
+}
+
+.techno__txt {
+    padding: 0;
+    margin-left: 19px;
+}
+
+.technology__text {
+    padding-top: 1105px;
+}
+
+.technology__title {
+    font-family: Comfortaa;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 63px;
+
+}
+
+.techno__txt__item {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-left: 24px;
+}
+
+.techno__btn {
+    
 }
