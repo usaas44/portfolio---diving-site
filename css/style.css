@@ -631,3 +631,30 @@ p {
     top: 0;
     bottom: 0;
 }
+
+
+.microtech__down {
+    margin: 150px 0;
+}
+
+.mic__down__img1 {
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.mic__down__img2 {
+    margin-bottom: 12px;
+}
+
+.mic__down__img3 {
+    margin-right: 13px;
+}
+
+.mic__down__img4 {
+    margin-right: 11px;
+}
+
+
+.mic__down__img6 {
+    margin-top: 13px;
+}
