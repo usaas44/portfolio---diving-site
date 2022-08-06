@@ -519,6 +519,7 @@ p {
 .buy-img {
     width: 600px;
     height: 720px;
+
 }
 
 /* Technology setcion*/
@@ -530,6 +531,7 @@ p {
     background-position: center;
     position: relative;
     height: 1570px;
+    z-index: 1;
 }
 
 .techno__txt {
@@ -567,4 +569,65 @@ p {
     position: absolute;
     top: 20px;
     left: 1450px;
+
+}
+
+/* Microtech section */
+
+.microtech__top {
+    display: flex;
+}
+
+.micro__top--txt {
+    padding-top: 115px;
+    width: 350px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.microtech__img1 {
+    margin-bottom: 20px;
+    padding: 70px 30px 0px 30px;
+
+
+}
+
+.microtech__img2 {
+    margin-right: 22px;
+    padding-left: 30px;
+    padding-bottom: 52px;
+}
+
+.microtech__img3 {
+    padding-bottom: 52px;
+
+
+}
+
+.microtech__top--images {
+    margin-left: 80px;
+    margin-top: -330px;
+    position: relative;
+    z-index: 999;
+
+
+}
+
+.microtech__top--images::before {
+    content: "";
+    position: absolute;
+    border: 2px solid;
+    border-color: black;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 330px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
