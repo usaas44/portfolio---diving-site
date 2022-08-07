@@ -660,5 +660,7 @@ p {
     margin-top: 13px;
 }
 
-
+.mic__down__double {
+    display: none;
+}
 
