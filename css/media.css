@@ -1,3 +1,57 @@
+/* Header */
+
+
+@media (max-width:1500px) {
+    .header__top {
+        display: flex;
+        align-items: center;
+        padding: 57px 0;
+        gap: 80px;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:1230px) {
+    .header__decor-text--two {
+        left: 0;
+    }
+}
+
+@media (max-width:830px) {
+    .header__top {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 90px;
+    }
+
+    .header__btn {
+        width: 70%;
+    }
+
+    .header__content-box {
+        margin-right: 0;
+    }
+}
+
+@media (max-width:414px) {
+    .header__decor-text {
+        display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .header__title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .header__content-box {
+        margin-right: 0;
+    }
+
+}
+
 /* Microtech section */
 
 @media (max-width: 1860px) {
@@ -86,7 +140,13 @@
 }
 
 @media (max-width: 1000px) {
-    .mic__down__img1, .mic__down__img2, .mic__down__img3, .mic__down__img4, .mic__down__img5, .mic__down__img6 {
+
+    .mic__down__img1,
+    .mic__down__img2,
+    .mic__down__img3,
+    .mic__down__img4,
+    .mic__down__img5,
+    .mic__down__img6 {
         display: none;
     }
 
@@ -96,5 +156,5 @@
         margin-right: auto;
     }
 
- 
+
 }
