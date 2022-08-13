@@ -52,6 +52,58 @@
 
 }
 
+
+/* Info section */
+
+
+@media (max-width:1000px) {
+    .info__top {
+        display: block;
+    }
+
+    .info__down {
+        padding-top: 115px;
+    }
+
+    .info__top--top {
+        padding-top: 300px;
+    }
+
+    .info__top--text::before {
+        display: none;
+    }
+
+    .info__top--text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .info__top--img {
+        top: 10px;
+    }
+
+    .popup__btn {
+        top: 400px;
+        left: 260px;
+    }
+}
+
+@media (max-width:800px) {
+    .info__top--img {
+        display: none;
+
+    }
+
+    .popup__btn {
+        top: 800px;
+        left: 150px;
+
+    }
+}
+
+
+
+
 /* Microtech section */
 
 @media (max-width: 1860px) {
