@@ -16,6 +16,17 @@
     .header__decor-text--two {
         left: 0;
     }
+
+    .info__specs {
+        display: block;
+
+    }
+
+    .info__top {
+        margin-bottom: 320px
+    }
+
+
 }
 
 @media (max-width:830px) {
@@ -23,6 +34,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px 90px;
+
     }
 
     .header__btn {
@@ -31,6 +43,16 @@
 
     .header__content-box {
         margin-right: 0;
+    }
+}
+
+@media (max-width:830px) {
+    .info__specs--list {
+        width: 100%;
+    }
+
+    .info__specs--item {
+        display: block;
     }
 }
 
@@ -51,6 +73,9 @@
     }
 
 }
+
+
+
 
 
 /* Info section */
