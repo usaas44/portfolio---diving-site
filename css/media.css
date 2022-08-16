@@ -74,164 +74,185 @@
 
 }
 
+/*Buy section*/
 
-
-
-
-/* Info section */
-
-
-@media (max-width:1000px) {
-    .info__top {
+@media (max-width: 1250px) {
+    .buy>.container {
         display: block;
+        padding: 50px 0;
     }
 
-    .info__down {
-        padding-top: 115px;
+    .buy__inner {
+        justify-content: center;
+        align-items: center;
     }
 
-    .info__top--top {
-        padding-top: 300px;
-    }
-
-    .info__top--text::before {
-        display: none;
-    }
-
-    .info__top--text {
-        text-align: center;
+    .buy__title {
         width: 100%;
     }
 
-    .info__top--img {
-        top: 10px;
-    }
-
-    .popup__btn {
-        top: 400px;
-        left: 260px;
-    }
-}
-
-@media (max-width:800px) {
-    .info__top--img {
-        display: none;
-
-    }
-
-    .popup__btn {
-        top: 800px;
-        left: 150px;
-
-    }
-}
-
-
-
-
-/* Microtech section */
-
-@media (max-width: 1860px) {
-
-    .mic__down__img1 {
-        width: 400px;
-        height: 300px;
+    .buy__content--text {
         margin-bottom: 10px;
-    }
-
-    .mic__down__img2 {
-        width: 620px;
-        height: 300px;
-        margin-bottom: 10px;
-        margin-right: 10px;
-    }
-
-    .mic__down__img3 {
-        width: 240px;
-        height: 300px;
+        margin-right: 0;
+        text-align: center;
 
     }
 
-    .mic__down__img4 {
-        width: 415px;
-        height: 300px;
 
-        margin-right: 10px;
+    /* Info section */
+
+
+    @media (max-width:1000px) {
+        .info__top {
+            display: block;
+        }
+
+        .info__down {
+            padding-top: 115px;
+        }
+
+        .info__top--top {
+            padding-top: 300px;
+        }
+
+        .info__top--text::before {
+            display: none;
+        }
+
+        .info__top--text {
+            text-align: center;
+            width: 100%;
+        }
+
+        .info__top--img {
+            top: 10px;
+        }
+
+        .popup__btn {
+            top: 400px;
+            left: 260px;
+        }
     }
 
-    .mic__down__img5 {
-        width: 346px;
-        height: 300px;
+    @media (max-width:800px) {
+        .info__top--img {
+            display: none;
 
-        margin-right: 10px;
-    }
+        }
 
-    .mic__down__img6 {
-        width: 1040px;
-        height: 300px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-}
+        .popup__btn {
+            top: 800px;
+            left: 150px;
 
-@media (max-width: 1200px) {
-    .mic__down__img1 {
-        width: 350px;
-        height: 200px;
-        margin-bottom: 5px;
-    }
-
-    .mic__down__img2 {
-        width: 570px;
-        height: 200px;
-        margin-bottom: 5px;
-        margin-right: 5px;
-    }
-
-    .mic__down__img3 {
-        width: 210px;
-        height: 200px;
-
-    }
-
-    .mic__down__img4 {
-        width: 400px;
-        height: 200px;
-
-        margin-right: 5px;
-    }
-
-    .mic__down__img5 {
-        width: 300px;
-        height: 200px;
-
-        margin-right: 5px;
-    }
-
-    .mic__down__img6 {
-        width: 940px;
-        height: 200px;
-        margin-right: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-@media (max-width: 1000px) {
-
-    .mic__down__img1,
-    .mic__down__img2,
-    .mic__down__img3,
-    .mic__down__img4,
-    .mic__down__img5,
-    .mic__down__img6 {
-        display: none;
-    }
-
-    .mic__down__double {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        }
     }
 
 
-}
+
+
+    /* Microtech section */
+
+    @media (max-width: 1860px) {
+
+        .mic__down__img1 {
+            width: 400px;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+
+        .mic__down__img2 {
+            width: 620px;
+            height: 300px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .mic__down__img3 {
+            width: 240px;
+            height: 300px;
+
+        }
+
+        .mic__down__img4 {
+            width: 415px;
+            height: 300px;
+
+            margin-right: 10px;
+        }
+
+        .mic__down__img5 {
+            width: 346px;
+            height: 300px;
+
+            margin-right: 10px;
+        }
+
+        .mic__down__img6 {
+            width: 1040px;
+            height: 300px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .mic__down__img1 {
+            width: 350px;
+            height: 200px;
+            margin-bottom: 5px;
+        }
+
+        .mic__down__img2 {
+            width: 570px;
+            height: 200px;
+            margin-bottom: 5px;
+            margin-right: 5px;
+        }
+
+        .mic__down__img3 {
+            width: 210px;
+            height: 200px;
+
+        }
+
+        .mic__down__img4 {
+            width: 400px;
+            height: 200px;
+
+            margin-right: 5px;
+        }
+
+        .mic__down__img5 {
+            width: 300px;
+            height: 200px;
+
+            margin-right: 5px;
+        }
+
+        .mic__down__img6 {
+            width: 940px;
+            height: 200px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+
+        .mic__down__img1,
+        .mic__down__img2,
+        .mic__down__img3,
+        .mic__down__img4,
+        .mic__down__img5,
+        .mic__down__img6 {
+            display: none;
+        }
+
+        .mic__down__double {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    }
