@@ -104,16 +104,37 @@
     .buy__btn {
         width: 284px;
         height: 40px;
-        margin-right: auto;
+        display: block;
+        position: static;
         margin-left: auto;
+        margin-right: auto;
+
     }
 
     .text___btn {
         font-size: 20px;
         font-weight: 350;
+        line-height: 25px;
+    }
+
+    .buy__price {
+        display: block;
+        margin: 30px auto;
+
+    }
+
+    .buy-img {
+        display: block;
+        margin: 10px auto;
     }
 }
 
+@media (max-width: 570px) {
+    .buy-img {
+        display: none;
+
+    }
+}
 
 /* Info section */
 
