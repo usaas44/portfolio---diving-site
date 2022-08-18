@@ -189,8 +189,45 @@
 
 /* Microtech section */
 
+
+@media (max-width: 1830px) {
+    .microtech__top {
+        display: block;
+    }
+
+    .microtech__top--images {
+        margin-top: 25px;
+    }
+
+    .micro__top--txt {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .microtech__top--images::before {
+        display: none;
+    }
+}
+
+
 @media (max-width: 1860px) {
 
+    .microtech__img1, .microtech__img2, .microtech__img3{
+        display: none;
+    }
+
+    .microtech__double{
+        display: block;
+        width: 900px;
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+   
     .mic__down__img1 {
         width: 400px;
         height: 300px;
@@ -283,6 +320,14 @@
     .mic__down__img5,
     .mic__down__img6 {
         display: none;
+    }
+    
+    .microtech__double{
+        display: block;
+        width: 500px;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .mic__down__double {

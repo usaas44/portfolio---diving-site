@@ -568,7 +568,8 @@ p {
 .info--btn2 {
     position: absolute;
     top: 20px;
-    left: 1450px;
+    left: 50%;
+    right: 50%
 
 }
 
@@ -616,6 +617,10 @@ p {
     z-index: 999;
 
 
+}
+
+.microtech__double{
+    display: none;
 }
 
 .microtech__top--images::before {
