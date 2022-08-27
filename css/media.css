@@ -204,7 +204,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    
+
     }
 
     .microtech__top--images::before {
@@ -215,11 +215,13 @@
 
 @media (max-width: 1860px) {
 
-    .microtech__img1, .microtech__img2, .microtech__img3{
+    .microtech__img1,
+    .microtech__img2,
+    .microtech__img3 {
         display: none;
     }
 
-    .microtech__double{
+    .microtech__double {
         display: block;
         width: 900px;
         height: 600px;
@@ -227,7 +229,7 @@
         margin-left: auto;
     }
 
-   
+
     .mic__down__img1 {
         width: 400px;
         height: 300px;
@@ -321,8 +323,8 @@
     .mic__down__img6 {
         display: none;
     }
-    
-    .microtech__double{
+
+    .microtech__double {
         display: block;
         width: 500px;
         height: 300px;
@@ -337,4 +339,27 @@
     }
 
 
+}
+
+/* Footer*/
+
+@media (max-width: 1200px) {
+    .footer__galry--item {
+        width: 100%;
+        align-self: stretch;
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo {
+        order: -1;
+        margin-bottom: 50px;
+       
+    }
 }
